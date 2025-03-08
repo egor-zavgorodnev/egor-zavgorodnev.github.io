@@ -2,7 +2,7 @@
 
 **Mouse Maze Game** — это классическая игра-лабиринт, где нужно провести курсор мыши от старта до финиша, не касаясь стен. Игра включает таймер, таблицу рекордов и визуальные эффекты для победы и проигрыша.
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://<ваш-username>.github.io/mouse-maze-game/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://egor-zavgorodnev.github.io/mouse-maze-game/)
 
 ---
 
