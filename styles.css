@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.maze-container {
+    text-align: center;
+}
+
+.maze {
+    display: grid;
+    background-color: #fff;
+    border: 2px solid #000;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.cell {
+    width: 25px;
+    height: 25px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.wall {
+    background-color: #000;
+}
+
+.start {
+    background-color: green;
+    animation: blink 1s infinite;
+    cursor: pointer;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.finish {
+    background-color: red;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.timer {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.high-scores {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.high-scores h3 {
+    margin: 0;
+}
+
+.scores-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.scores-list li {
+    margin: 5px 0;
+}
+
+.maze.lose {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.maze.win {
+    background-color: rgba(0, 255, 0, 0.3);
+}
